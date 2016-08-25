@@ -1,0 +1,22 @@
+#generate{
+  display: block;
+  margin-bottom: 10px;
+}
+
+table, th, td {
+   border: 1px solid rgba(95,95,95,0.5);
+}
+
+td {
+  width:20px;
+  height: 22px;
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background: #CCC
+}
+
+tr:nth-child(odd){
+  background: #FFF
+}
